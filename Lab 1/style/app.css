@@ -1,0 +1,49 @@
+/*
+    Name - Harsh Bargotra
+    Date - 11-02-2024
+    Description - This is the css file for Lab 1 as a requirement for INFT 2202 course.
+*/
+
+#index_background {
+    background-image: url('../images/background-image.jpg');
+    background-size: 100%;
+    background-position: fixed;
+}
+
+.container {
+color: white;
+}
+
+#harry-potter-img {
+    height: 15%;
+    width: 15%;
+}
+
+#text-container-product{
+    color: black;
+}
+
+#the-originals-img {
+    height: 30%;
+    width: 30%;
+}
+
+#call-of-duty-img {
+    height: 50%;
+    width: 20%;
+}
+
+#service-text-container{
+    color: black;
+}
+
+#app-development-img{
+    height: 30%;
+    width: 30%;
+}
+
+#aboutUsTextContainer{
+    color: black;
+}
+
+

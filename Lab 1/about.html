@@ -1,0 +1,64 @@
+<!--
+    Name - Harsh Bargotra
+    Date - 11-02-2024
+    Description - This is the about us page for Lab 1 as a requirement for INFT 2202 course.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Set the document title -->
+  <title>Lab 1 - Harsh Bargotra</title>
+  <!-- Set the character set for the document -->
+  <meta charset="utf-8">
+  <!-- Ensure proper rendering and touch zooming on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link to the Bootstrap CSS stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- Link to the jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Link to the Bootstrap JavaScript library -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <!-- Navigation links -->
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <div class="container">
+    <div id="aboutUsTextContainer">
+      <!-- About Us Heading -->
+      <h3 id="About-us-heading">About Us</h3>
+      <!-- About Us Text -->
+      <p id="About-us-text">
+        <!-- JavaScript to inject content when the document is fully loaded -->
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            injectAboutUsContent();
+          });
+        </script>
+      </p>
+    </div>
+  </div>
+
+  <!-- Include the JavaScript file -->
+  <script src="./scripts/app.js"></script>
+</body>
+
+</html>
