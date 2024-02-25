@@ -1,0 +1,69 @@
+<!--
+    Name - Harsh Bargotra
+    Date - 24-02-2024
+    Description - This is the register page for Lab 2 as a requirement for INFT 2202 course.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set the document title -->
+  <title>Register Page</title>
+  <!-- Set the character set for the document -->
+  <meta charset="utf-8">
+  <!-- Ensure proper rendering and touch zooming on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link to the Bootstrap CSS stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- Link to the jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Link to the Bootstrap JavaScript library -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Link to the custom CSS file -->
+  <link rel="stylesheet" href="./style/app.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#"></a>
+      </div>
+      <!-- Navigation links -->
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="product.html">Product</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </nav>
+
+    <form id="registerForm">
+        <div class="mb-3">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" required minlength="2" placeholder="First Name">
+
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required minlength="2" placeholder="Last Name">
+
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" required minlength="8" placeholder="abc@xyz.com">
+
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" required minlength="8" placeholder="Password">
+
+            <label for="confirmPassword" class="form-label">Confirm Password</label>
+            <input type="password" class="form-control" id="confirmPassword" required minlength="8" placeholder="Password">
+            <button type="button" class="btn-register" >Register</button>
+        </div>
+
+    </form>
+
+    <div id="errorMessage" class="alert alert-danger mt-3" style="display: none;"></div>
+
+    <!-- Add necessary scripts at the end of the body -->
+    <script src="./scripts/app.js"></script>
+</body>
+</html>
